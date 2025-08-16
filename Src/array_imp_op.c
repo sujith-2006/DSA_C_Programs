@@ -1,10 +1,5 @@
 #include<stdio.h>
-#define MAX 100
-void defineArray(int arr[], int *n);
-void printArray(int arr[], int *n);
-void insertArray(int arr[], int *n);
-void deleteArray(int arr[], int *n);
-void updateArray(int arr[], int *n);
+#include "array_imp_op.h"
 int main(){
 	printf("-----Array Operations-----\n\n");
 	int key = 1; // Inside While Loop
